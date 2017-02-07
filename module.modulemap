@@ -1,5 +1,5 @@
 module SwiftCMySqlMac [system] {
     header "/usr/local/mysql/include/mysql.h"
-    link mysqlclient
+    link "mysqlclient"
     export *
 }
